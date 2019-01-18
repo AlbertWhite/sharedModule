@@ -7,9 +7,15 @@ const css2 = require('./stylesheets/b.css')
 
 exports.constants = {
   a: a,
-  b: b,
+  b: b
+}
+
+exports.helpers = {
   helper1: helper1,
-  helper2: helper2,
+  helper2: helper2
+}
+
+exports.stylesheets = {
   css1: css1,
   css2: css2
 }

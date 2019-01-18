@@ -1,3 +1,3 @@
-exports.helperFunction1 = () => {
+module.exports = () => {
   console.log('I am helper function 1')
 }
