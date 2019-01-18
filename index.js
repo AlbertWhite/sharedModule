@@ -1,7 +1,15 @@
-exports.helperFunction1 = () => {
-  console.log('I am helper function 1')
-}
+const a = require('./constants/a')
+const b = require('./constants/b')
+const helper1 = require('./helpers/helper1')
+const helper2 = require('./helpers/helper2')
+const css1 = require('./stylesheets/a.css')
+const css2 = require('./stylesheets/b.css')
 
-exports.helperFunction2 = () => {
-  console.log('I am helper function 2')
+exports.constants = {
+  a: a,
+  b: b,
+  helper1: helper1,
+  helper2: helper2,
+  css1: css1,
+  css2: css2
 }
