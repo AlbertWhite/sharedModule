@@ -1,5 +1,8 @@
 {
   "name": "shared-module",
   "version": "1.0.0",
-  "main": "index.js"
+  "main": "index.js",
+  "files": [
+    "stylesheets/a.css"
+  ]
 }
